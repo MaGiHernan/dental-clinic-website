@@ -11,8 +11,172 @@
 
 <body>
 
-    <h1>Clínica Dental</h1>
-    <p>Sitio web en construcción.</p>
+    <!-- Header / Navigation -->
+    <header class="site-header">
+        <nav class="navbar container">
+            <a href="#inicio" class="logo">Clínica Dental</a>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li>
+                    <a href="#contacto" class="nav-button">Agendar cita</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero" id="inicio">
+            <div class="container hero-content">
+
+                <p class="eyebrow">Atención dental profesional</p>
+
+                <h1>Tu sonrisa merece el mejor cuidado</h1>
+
+                <p class="hero-text">
+                    Ofrecemos atención dental personalizada en un ambiente
+                    cómodo, moderno y profesional.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#contacto" class="button primary-button">
+                        Agendar cita
+                    </a>
+
+                    <a href="#servicios" class="button secondary-button">
+                        Ver servicios
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section" id="servicios">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">Nuestros servicios</p>
+                    <h2>Cuidado dental para toda tu sonrisa</h2>
+                    <p>
+                        Este prototipo incluye tres de los servicios principales
+                        que la clínica podrá ofrecer.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+
+                    <article class="service-card">
+                        <div class="service-icon">01</div>
+
+                        <h3>Consulta General</h3>
+
+                        <p>
+                            Evaluación completa de tu salud dental para detectar
+                            problemas y recomendar el tratamiento adecuado.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">02</div>
+
+                        <h3>Limpieza Dental</h3>
+
+                        <p>
+                            Limpieza profesional para ayudar a mantener dientes
+                            y encías saludables.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">03</div>
+
+                        <h3>Blanqueamiento Dental</h3>
+
+                        <p>
+                            Tratamiento estético para mejorar la apariencia de
+                            tu sonrisa de forma profesional.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contacto">
+            <div class="container contact-grid">
+
+                <div class="contact-content">
+                    <p class="eyebrow">Contáctanos</p>
+
+                    <h2>Estamos listos para atenderte</h2>
+
+                    <p>
+                        Comunícate con nosotros para resolver tus dudas o
+                        solicitar una cita.
+                    </p>
+                </div>
+
+                <div class="contact-card">
+
+                    <div class="contact-item">
+                        <span>Teléfono</span>
+                        <a href="tel:+520000000000">
+                            +52 000 000 0000
+                        </a>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>WhatsApp</span>
+                        <a href="#">
+                            Enviar mensaje
+                        </a>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>Email</span>
+                        <a href="mailto:contacto@clinicadental.com">
+                            contacto@clinicadental.com
+                        </a>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>Dirección</span>
+                        <p>
+                            Dirección de la clínica<br>
+                            Ciudad, México
+                        </p>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>Horario</span>
+                        <p>
+                            Lunes a Viernes<br>
+                            9:00 AM – 6:00 PM
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>© 2026 Clínica Dental. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 
     <script src="js/main.js"></script>
 </body>
