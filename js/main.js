@@ -12,3 +12,22 @@ menuLinks.forEach((link) => {
         navLinks.classList.remove("active");
     });
 });
+
+const serviceCards = document.querySelectorAll("[data-service]");
+
+serviceCards.forEach((card) => {
+    card.addEventListener("click", (event) => {
+
+        if (event.target.closest("a")) {
+            return;
+        }
+
+        serviceCards.forEach((otherCard) => {
+            if (otherCard !== card) {
+                otherCard.classList.remove("active");
+            }
+        });
+
+        card.classList.toggle("active");
+    });
+});
